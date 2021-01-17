@@ -11,4 +11,9 @@ public class AlicjaRunner implements Runner {
     public void walk(){
         System.out.println("walk Alicja");
     }
+
+    @Override
+    public void go(int speed) {
+        System.out.println("Alicja speed is " + speed);
+    }
 }
