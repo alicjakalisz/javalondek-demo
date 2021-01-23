@@ -8,4 +8,4 @@ Git - przydatne komendy
 git status
 git add .
 git commit -m "[tag] - message"
-new change
+git checkout -b branchname //przelacz na nowo utworzony branch
