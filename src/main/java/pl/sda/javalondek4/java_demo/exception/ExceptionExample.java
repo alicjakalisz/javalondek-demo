@@ -23,7 +23,10 @@ public class ExceptionExample {
         }
         System.out.println("My nick is: "+ myNick);
 
+        System.out.println("Now with runtime exceptions...");
 
+        myNick = exceptionGenerator.nickWithRunTimeException();
+        System.out.println("My nick now is: " + myNick);
         String nullString = null;
         nullString.concat(" ma kota");
 
