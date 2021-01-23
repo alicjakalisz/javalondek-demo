@@ -27,13 +27,13 @@ public class ExceptionGenerator {
         }
         return myNick;
     }
-    public String nickWithRunTimeException() throws NoNickRunTimeException{
+    public String nickWithRunTimeException() throws NoNickRuntimeException {
         Random random = new Random();
         if(random.nextInt(100)%2 ==0){
             return "maniek";
         }
         else {
-            throw new NoNickRunTimeException("I have no nick...yet:P");
+            throw new NoNickRuntimeException("I have no nick...yet:P");
         }
     }
 }
