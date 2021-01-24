@@ -23,3 +23,4 @@ git commit -m "[tag] - message"
 git restore --staged file-name //zdejmij ze stage
 git checkout branch-name // przelacz sie na branch name
 git checkout -b branchname //przelacz na nowo utworzony branch
+git log --graph // rysuje graf historii w konsoli
