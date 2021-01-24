@@ -37,6 +37,14 @@ public class ComputerUtils {
 
 
     }
+    public static String getGCModelWithJava8(Computer computer) {
+
+       return Optional.ofNullable(computer)
+                .map(comp -> comp.getGraphicsCard())
+                .map(graphicsCard -> graphicsCard.getModel())
+                .orElse("no model");
+
+    }
 
     public static void main(String[] args) {
         Computer withoutGraphicsCard = new Computer(null);
