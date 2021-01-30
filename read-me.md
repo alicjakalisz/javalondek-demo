@@ -14,6 +14,10 @@ Git - good practices
     *develop - branch developerski
     *feature branch - branch do rozwoju funcjonalnosci
     *feature branch - powinien startowac od developa i do niego finalnie zostac zmergowany
+    
+* branch
+    * wlasny branch nie musi byc idealny, moze nie dzialac, moze zawierac komentarze FIXME/TODO,
+     ale wyslanie merge requesta z tego brancha musi zawierac "piekny kod"  
 
 
 Git - przydatne komendy

@@ -9,7 +9,7 @@ public class ComputerUtils {
 
 
     public static String getGraphicsCardGoodApproach(Computer computer) {
-return null;
+        return null;
     }
 
 
@@ -22,5 +22,7 @@ return null;
         getGraphicsCardGoodApproach(withUnknownModel);
         getGraphicsCardGoodApproach(personalComputer);
         getGraphicsCardGoodApproach(nullComputer);
+
+
     }
 }

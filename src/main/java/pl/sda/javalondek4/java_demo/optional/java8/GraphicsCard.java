@@ -20,4 +20,6 @@ public class GraphicsCard {
                 "model='" + model + '\'' +
                 '}';
     }
+
+
 }
