@@ -23,6 +23,7 @@ Git - good practices
 Git - przydatne komendy
 git status
 git add .
+git add file name
 git commit -m "[tag] - message"
 git restore --staged file-name //zdejmij ze stage
 git checkout branch-name // przelacz sie na branch name
